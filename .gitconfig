@@ -1,0 +1,12 @@
+[user]
+	email = ionutmistrea@gmail.com
+	name = Ionut Mistreanu
+[color]
+	ui = auto
+[log]
+	decorate = true
+	graph = true
+
+[alias]
+log1 = log --graph --abbrev-commit --format=format:'%C(yellow)%h %C(cyan)%ar %C(green)%an%C(auto)%d%n''          %C(white)%s%n' --all
+log2 = log --graph --abbrev-commit --format=format:'%C(yellow)%h %C(cyan)%ar %C(green)%an%C(auto)%d%n''          %C(white)%s' --all
